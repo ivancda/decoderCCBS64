@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+.hidden{
+  display: none;
+}
+
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+
+body{
+  background-color: #FBB02D;
+  display: flex;
+  justify-content: center;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  box-shadow: 5px 5px 20px #5C8001;
+  margin: 1em;
+  border: 1px solid #5C8001;
+  border-radius: 15px;
+  padding: 1em;
+  max-width: 20em;
+  user-select: none;
+  background-color: #F3DE2C;
+}
+
+.nBox{
+  display: flex;
+  flex-direction: column;
+}
+
+.screen{
+  height: 4em;
+  min-width: 10em;
+  border: 1px solid #5C8001;
+  border-radius: 15px;
+  text-align: center;
+  padding: 1em;
+  user-select: text;
+  background-color: #FB6107;
+}
+
+#inpt{
+  box-shadow: 1px 1px 10px #5C8001;
+  border: 1px solid #5C8001;
+  border-radius: 5px;
+}
+
+select{
+  box-shadow: 1px 1px 10px #5C8001;
+  border: 1px solid #5C8001;
+  border-radius: 5px;
+}
+
+#stepN{
+  
+  border: 1px solid #5C8001;
+  border-radius: 5px;
+}
+
+.bttn{
+  box-shadow: 1px 1px 10px #5C8001;
+  border: 1px solid #5C8001;
+  border-radius: 5px;
+  padding: 1em;
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.bttn:active{
+  background-color: black;
+  color: white;
+  
+}
