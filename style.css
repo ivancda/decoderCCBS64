@@ -32,10 +32,9 @@ main{
   margin: 1em;
   border-radius: 15px;
   padding: 1em;
-  max-width: 20em;
+  width: 20em;
   user-select: none;
   background-color: #1C440D;
-
 }
 input{
   background-color: #004D37;
@@ -48,14 +47,14 @@ input{
 }
 
 .screen{
-  height: 4em;
-  min-width: 10em;
-
+  min-height: 4em;
   border-radius: 15px;
   text-align: center;
   padding: 1em;
   user-select: text;
   background-color: #004D37;
+  word-break: break-all;
+  min-width: 18em;
 }
 
 #stepN{
