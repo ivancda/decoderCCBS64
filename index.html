@@ -9,25 +9,30 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <h1>(DE)CODIFICADOR</h1>
-    <div class="inpBox">
-      <input id="inpt" type="text">
-      <select id="select">
-        <option value="64">64</option>
-        <option value="CS">CS</option>
-      </select>
-    </div>
-    <div class="nBox">
-      <input id="stepN" class="hidden" type="number">
-      <label id="stpL" class="hidden" for="stepN">Número de passos </label>
-    </div>
-    <div class="codeBox">
-      <input id="coIn" name="opt" type="radio">CODE</input>
-      <input id="deIn" name="opt" type="radio">DECODE</input>
-    </div>
-    <div class="bttn" id="btn">BORA</div>
-    <div class="screen" id="scr"></div>
-  </main>  
+  <div class="imgBox">
+    <img src="cesar.png" alt="Cesar">
+    <main>
+      <h1>(DE)CODIFICADOR</h1>
+      <div class="inpBox">
+        <input id="inpt" type="text">
+        <select id="select">
+          <option value="64">Base64</option>
+          <option value="CS">Cifra de Cesar</option>
+        </select>
+      </div>
+      <div class="nBox">
+        <input id="stepN" class="hidden" type="number">
+        <label id="stpL" class="hidden" for="stepN">Número de passos </label>
+      </div>
+      <div class="codeBox">
+        <input id="coIn" name="opt" type="radio">CODE</input>
+        <input id="deIn" name="opt" type="radio">DECODE</input>
+      </div>
+      <div class="bttn" id="btn">BORA</div>
+      <div class="screen" id="scr"></div>
+    </main>
+    <img src="64.png" alt="64">
+  </div>
+  <p>Site feito para fins de estudo por <a href="">Ivan Coelho</a></p>  
 </body>
 </html>
