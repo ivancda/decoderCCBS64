@@ -34,7 +34,8 @@ main{
   padding: 1em;
   width: 20em;
   user-select: none;
-  background-color: #1C440D;
+  background-color: #1c440d75;
+  position: absolute;
 }
 input{
   background-color: #004D37;
@@ -78,8 +79,4 @@ input{
   display: flex;
   align-items: center;
   justify-content: center;
-}
-img{
-  max-height: 300px;
-  max-width: 300px;
 }
